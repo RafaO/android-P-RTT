@@ -1,0 +1,31 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
++# Temporary files that kdiff generates
+ +*.orig
+
+# IDEA/Android Studio ignores
+/.idea/*
+
+# IDEA/Android Studio Ignore exceptions
+!/.idea/codeStyleSettings.xml
+
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iws
+*.ipr
+*~
+*.swp
+*.orig
+app/libs/
+gradle/
+gradlew
+gradlew.bat
+settings.gradle
