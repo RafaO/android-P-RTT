@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 
         // REGISTER BROADCAST RECEIVER
         registerReceiver(object : BroadcastReceiver() {
-            override fun onReceive(p0: Context?, p1: Intent?) {
+            override fun onReceive(context: Context, intent: Intent) {
                 with(mWifiManager.scanResults) {
                     if (size > 0) {
                         val rangingRequest = RangingRequest.Builder()
